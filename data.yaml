@@ -1,0 +1,23 @@
+path: ../dataset # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+test: images/test # test images (optional)
+
+# Classes
+names:
+  0: bag
+  1: belt
+  2: boots
+  3: dress
+  4: footwear
+  5: headwear
+  6: outer
+  7: pants
+  8: scarf-tie
+  9: shorts
+  10: skirt
+  11: sunglasses
+  12: top
+
+# Download script/URL (optional)
+# download: 
